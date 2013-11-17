@@ -23,6 +23,7 @@ gem 'jquery-rails', '2.0.2'
 
 group :production do
   gem 'pg', '0.12.2'
+  gem 'rails_12factor'
 end
 
 # To use ActiveModel has_secure_password
@@ -39,3 +40,5 @@ end
 
 # To use debugger
 # gem 'debugger'
+
+ruby '2.0.0'
